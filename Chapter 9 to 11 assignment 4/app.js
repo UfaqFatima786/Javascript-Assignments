@@ -3,7 +3,7 @@ var city = prompt("Enter city name:");
 if (city === "Karachi") {
     console.log("Welcome to city of lights");
 }
-document.write("<h2><center>Welcome to city of lights</center></h2> <br><br>");
+document.write("<h2>Welcome to city of lights</h2> <br><br>");
 
 // //Write a program to take "gender" as input from user. If the user is male, display "Good Morning Sir".if the user is female, give the message :"Good Morning Ma'am"
 var gender = prompt("Enter your gender:");
