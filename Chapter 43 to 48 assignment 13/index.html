@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chapter no 43-48</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div> <a href="JavaScript:void(0)" onclick="greet('UFAQ')">Click here</a></div>
+
+
+
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUWnUDhLWa6PYnFiXt8W1VHKukDmgU1ZH-Yg&s"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">OPPO</h5>
+                        <p class="card-text">TMobile phones help us stay connected with family and friends anytime, anywhere.
+They also make life easier by providing internet access, online learning, banking, shopping, and entertainment in one device.</p>
+                        <div class="btn-group ms-5" role="group" aria-label="Basic mixed styles example">
+                            <button type="button" class="btn1" onclick="add()">ADD+</button>
+
+                            <button type="button" class="btn2" onclick="remove()">Remove-</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxZUHYlyNxWcH19Vtng2goZ_l5wIsxbmijbQ&s"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">iPhone</h5>
+                        <p class="card-text">Mobile phones help us stay connected with family and friends anytime, anywhere.
+They also make life easier by providing internet access, online learning, banking, shopping, and entertainment in one device.</p>
+                        <div class="btn-group ms-5" role="group" aria-label="Basic mixed styles example">
+                            <button type="button" class="btn1" onclick="add()">ADD+</button>
+
+                            <button type="button" class="btn2" onclick="remove()">Remove-</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="data:image/jpeg;base64,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"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Android</h5>
+                    <p class="card-text">Mobile phones help us stay connected with family and friends anytime, anywhere.
+They also make life easier by providing internet access, online learning, banking, shopping, and entertainment in one device.</p>
+                    <div class="btn-group ms-5" role="group" aria-label="Basic mixed styles example">
+                        <button type="button" class="btn1" onclick="add()">ADD+</button>
+
+                        <button type="button" class="btn2" onclick="remove()">Remove-</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+
+        </div>
+    </div>
+    </div>
+
+    </div>
+
+    <div class="container mt-4">
+
+        <!-- Header Row -->
+        <div class="row fw-bold bg-light p-2">
+            <div class="col-3">Roll No</div>
+            <div class="col-3">Name</div>
+            <div class="col-3">Class</div>
+            <div class="col-3">Action</div>
+        </div>
+
+
+        <div class="row p-2 border">
+            <div class="col-3">01</div>
+            <div class="col-3">Aqsa</div>
+            <div class="col-3">10</div>
+            <div class="col-3">
+                <button class="btn0 btn-sm" onclick="deleteBtn(this)">Remove</button>
+            </div>
+        </div>
+
+
+        <div class="row p-2 border">
+            <div class="col-3">02</div>
+            <div class="col-3">Sabra</div>
+            <div class="col-3">9</div>
+            <div class="col-3">
+                <button class="btn0  btn-sm" onclick="deleteBtn(this)">Remove</button>
+            </div>
+        </div>
+
+
+        <div class="row p-2 border">
+            <div class="col-3">03</div>
+            <div class="col-3">Farwa</div>
+            <div class="col-3">8</div>
+            <div class="col-3">
+                <button class="btn0 btn-sm" onclick="deleteBtn(this)">Remove</button>
+            </div>
+        </div>
+        <div class="row p-2 border">
+            <div class="col-3">04</div>
+            <div class="col-3">Hania</div>
+            <div class="col-3">7</div>
+            <div class="col-3">
+                <button class="btn0 btn-sm" onclick="deleteBtn(this)">Remove</button>
+            </div>
+        </div>
+        <div class="row p-2 border">
+            <div class="col-3">05</div>
+            <div class="col-3">Yusra</div>
+            <div class="col-3">6</div>
+            <div class="col-3">
+                <button class="btn0 btn-sm" onclick="deleteBtn(this)">Remove</button>
+            </div>
+        </div>
+        <div class="row p-2 border">
+            <div class="col-3">06</div>
+            <div class="col-3">Malaika</div>
+            <div class="col-3">5</div>
+            <div class="col-3">
+                <button class="btn0 btn-sm" onclick="deleteBtn(this)">Remove</button>
+            </div>
+        </div>
+        <div class="row p-2 border">
+            <div class="col-3">07</div>
+            <div class="col-3">Emaan</div>
+            <div class="col-3">4</div>
+            <div class="col-3">
+                <button class="btn0 btn-sm" onclick="deleteBtn(this)">Remove</button>
+
+            </div>
+        </div>
+        <div class="row p-2 border">
+            <div class="col-3">08</div>
+            <div class="col-3">Mehak</div>
+            <div class="col-3">3</div>
+            <div class="col-3">
+                <button class="btn0 btn-sm" onclick="deleteBtn(this)">Remove</button>
+            </div>
+        </div>
+        <div class="row p-2 border">
+            <div class="col-3">09</div>
+            <div class="col-3">Sehrish</div>
+            <div class="col-3">2</div>
+            <div class="col-3">
+                <button class="btn0 btn-sm" onclick="deleteBtn(this)">Remove</button>
+            </div>
+        </div>
+        <div class="row p-2 border">
+            <div class="col-3">10</div>
+            <div class="col-3">Nowairah</div>
+            <div class="col-3">1</div>
+            <div class="col-3">
+                <button class="btn0 btn-sm" onclick="deleteBtn(this)">Remove</button>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="container">
+        <img src="github.png" alt="" onmouseover="beforeImg(this)" onmouseout="afterImg(this)">
+    </div>
+
+</html>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+<script src="app.js"></script>
+</body>
